@@ -1,0 +1,9 @@
+.product-container dt {
+  width: 12%;
+  color: #264D73;
+  text-align: right;
+}
+
+.product-container dd {
+  width: 80%;
+}

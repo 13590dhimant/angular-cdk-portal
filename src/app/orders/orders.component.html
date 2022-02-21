@@ -1,0 +1,16 @@
+<h2>
+  Product Page Works!
+</h2>
+
+<button type="button" (click)="onCLick()">TRY EXTERNAL WINDOW</button>
+<button type="button" (click)="onCLick1()">TRY EXTERNAL WINDOW WITH ROUTER</button>
+
+<window *ngIf="show">
+  <app-product></app-product>
+</window>
+
+
+<window-router *ngIf="show1">
+  <app-product></app-product>
+  <!--  <router-outlet></router-outlet>-->
+</window-router>
